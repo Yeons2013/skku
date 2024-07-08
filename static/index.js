@@ -28,13 +28,13 @@ function checkAttend() {
 }
 
 function mvSearch() {
-	window.location.href = window.location.href.split("skku")[0] + "skku/search"
+	window.location.href = 'https://skku.vercel.app/skku';
 }
 
 function mvIndex() {
-	window.location.href = window.location.href.split("skku")[0] + "skku"
+	window.location.href = 'https://skku.vercel.app/skku/search';
 }
 
 function mvImgCheck() {
-	window.location.href = window.location.href.split("skku")[0] + "skku/img"
+	window.location.href = 'https://skku.vercel.app/skku/img';
 }
